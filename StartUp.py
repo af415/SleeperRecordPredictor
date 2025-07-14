@@ -7,7 +7,7 @@ import DataBaseHandle
 import Scoring
 import argparse
 
-league_id = None
+league_id = None # OLD - 807659100711260160
 roster_and_players = {}
 roster_id_and_user_id = {}
 user_id_and_display_name = {}
@@ -85,7 +85,7 @@ def projected_record():
 
 def calculate_score(stats):
     # Calculate league predicted points
-    score = Scoring.Scoring.get_scoring()
+    score = Scoring.Scoring.get_scoring(league_id)
     player_score = []
     for stat in stats.items():
         if stat[0] in score.keys():

@@ -2,7 +2,7 @@ READ ME:
 
 This is a program to predict the Wins and Losses for a fantasy football league, This has been tailored to a custom
 league.
-Future work will be done to get the team set up and scoring info so this can be used more widely.
+Future work will be done to get the team set up and scoring info so this can be used more widely. [DONE July 14th 2026]
 
 Needed for this to work:
  - MySQL installed locally
